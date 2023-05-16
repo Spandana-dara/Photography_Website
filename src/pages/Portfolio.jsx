@@ -11,10 +11,10 @@ export default function Portfolio() {
     <section className='section'>
       <div className='container mx-auto h-full relative'>
         <div className='flex flex-col lg:flex-row h-full items-center justify-start
-        gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
+        gap-x-24 text-center lg:text-left pt-24 lg:pt-0 pb-8 lg:mt-[-10px]'>
           <div className='flex flex-col lg:items-start'>
             <h1 className='h1'>Portfolio</h1>
-            <p className='mb-12 max-w-sm text-[18px]'>
+            <p className='mb-12 max-w-sm text-[22px]'>
             Special moments turned into timeless portraits of human essence.
             </p>
             <br />

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+    <header className='w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[100px] flex items-center'>
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
         <Link to={'/'} className='max-w-[200px]'>
           <div className="text-[#696c6d] lg:ml-[-35px] ml-[-27px]">

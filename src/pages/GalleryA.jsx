@@ -21,7 +21,7 @@ export default function GalleryA() {
             <div className='mx-auto h-full relative'>
                 <div className='flex flex-col justify-center'>
                     <div className='flex justify-end max-h-96 lg:max-h-max justify-end'>
-                        <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none lg:pt-24 pt-20 overflow-auto'>
+                        <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none lg:mt-[-20px] overflow-auto'>
                             <Carousel
                                 showThumbs={false}
                                 showStatus={false}
