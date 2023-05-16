@@ -30,10 +30,10 @@ export default function Contact() {
                   defaultValue='wedding'
                 >
                   <option value='' disabled>Event type</option>
-                  <option value='birthday'>Wedding</option>
-                  <option value='wedding'>Pre-Wedding</option>
-                  <option value='corporate'>Fashing/Portfolio</option>
-                  <option value='conference'>Maternity/Others</option>
+                  <option value='wedding'>Wedding</option>
+                  <option value='pre-wedding'>Pre-Wedding</option>
+                  <option value='fashion'>Fashion/Portfolio</option>
+                  <option value='maternity'>Maternity/Others</option>
                   {/* Add more options as needed */}
                 </select>
 
