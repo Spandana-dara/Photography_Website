@@ -1,6 +1,5 @@
 {
-  "homepage": "https://spandana-dara.github.io/Photography_Website/",
-  "name": "react_app",
+  "name": "photography-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",

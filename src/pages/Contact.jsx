@@ -1,5 +1,11 @@
 import WomanImg from '../img/contact/1.png';
 
+import {
+  ImInstagram,
+  ImFacebook,
+  ImTwitter
+} from 'react-icons/im';
+
 export default function Contact() {
   return (
     <section className='section bg-white'>
@@ -34,7 +40,7 @@ export default function Contact() {
                   <option value='pre-wedding'>Pre-Wedding</option>
                   <option value='fashion'>Fashion/Portfolio</option>
                   <option value='maternity'>Maternity/Others</option>
-                  {/* Add more options as needed */}
+                  
                 </select>
 
               </div>
@@ -43,6 +49,7 @@ export default function Contact() {
                 type='text' placeholder='Event Details (if any)'></input>
               <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>Send Message</button>
             </form>
+            
           </div>
           <div className='flex justify-end lg:w-1/2'>
 

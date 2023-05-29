@@ -21,7 +21,7 @@ const menuVariants = {
 export default function MobileNav() {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className='text-primary xl:hidden'>
+    <nav className='text-primary text-[#fff] xl:hidden'>
       <div
         onClick={() => setOpenMenu(true)}
         className='text-3xl cursor-pointer>'>

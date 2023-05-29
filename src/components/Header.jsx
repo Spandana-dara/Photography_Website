@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className='w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[100px] flex items-center'>
+    <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[80px] lg:h-[80px] flex items-center bg-black'>
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
         <Link to={'/'} className='max-w-[200px]'>
-          <div className="text-[#696c6d] lg:ml-[-35px] ml-[-27px]">
+          <div className="text-[#ffff] lg:ml-[-50px] ml-[-27px]">
             <h1 className="text-2xl">
               E U P H O R I A
             </h1>
@@ -20,10 +20,10 @@ export default function Header() {
           </div>
         </Link>
         <nav className='hidden xl:flex font-serif gap-x-12 font-semibold text-[20px]'>
-          <Link to="/" className='text-[#696c6d] hover:text-primary transition'>Home</Link>
-          <Link to="/about" className='text-[#696c6d] hover:text-primary transition'>About</Link>
-          <Link to="/portfolio" className='text-[#696c6d] hover:text-primary transition'>Portfolio</Link>
-          <Link to="/contact" className='text-[#696c6d] hover:text-primary transition'>Contact</Link>
+          <Link to="/" className='text-[#ffff]'>Home</Link>
+          <Link to="/about" className='text-[#ffff]'>About</Link>
+          <Link to="/portfolio" className='text-[#ffff]'>Portfolio</Link>
+          <Link to="/contact" className='text-[#ffff]'>Contact</Link>
         </nav>
       </div>
       <Socials />

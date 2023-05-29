@@ -6,12 +6,12 @@ export default function About() {
   return (
     <section className='section'>
       <div className='container mx-auto h-full relative'>
-        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left '>
-          <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none lg:mt-[-90px]'>
-            <img src={WomanImg} alt=''></img>
+        <div className='flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left items-center'>
+          <div className='flex-1 lg:order-none lg:mt-[100px] mt-[130px] mb-[70px] lg:pl-[20px] overflow-hidden justify-center '>
+            <img src={WomanImg} className='h-85' alt=''></img>
           </div>
-          <div className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto
-          z-10 flex flex-col justify-center items-center lg:items-start'>
+          <div className='flex-1 pt-100 pb-14 lg:pt-[150px] lg:pl-[70px] lg:w-auto
+          z-10 flex flex-col lg:items-start items-center'>
             <h1 className='h1'> About me</h1>
             <p className='mb-8 max-w-sm text-[18px]'>
               Hi there! I'm Chinmay, a passionate wedding photographer capturing timeless moments of love and joy.
@@ -26,6 +26,7 @@ export default function About() {
             </p>
             <Link to={'/portfolio'} className='btn'>View my work</Link>
           </div>
+          
 
         </div>
 
