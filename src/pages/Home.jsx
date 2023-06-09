@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <section className='section'>
-      <div className='container mx-auto relative'>
+      <div className='container mx-auto relative h-full'>
         <div className='flex flex-col justify-center pt-[110px] lg:pt-[50px]'>
           <div
             className='w-full pt-46 pb-14 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col
